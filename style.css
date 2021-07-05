@@ -1,0 +1,38 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+#biggest-h1{
+    font-size: 50px;
+}
+.first-word{
+    color: rgb(201, 41, 68);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(248, 129, 149), rgb(202, 11, 11));;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.header{
+    color: gray;
+}
+.about{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+
+}
+#center-align{
+    text-align: center;
+}
+#recipe-intro{
+    padding: 20px;
+}
