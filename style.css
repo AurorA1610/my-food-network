@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    font-size: large;
 }
 .flexible{
     display: flex;
@@ -8,6 +9,9 @@ body{
 .half-width{
     width: 50%;
     padding: 5%;
+}
+.half-width p{
+    padding-bottom: 50px;
 }
 #biggest-h1{
     font-size: 50px;
@@ -50,9 +54,42 @@ body{
     margin-bottom: 80px;
     border-radius: 30px;
 }
+.extra h2{
+    color: rgb(201, 41, 68);
+    text-align: center;
+}
+.menu{
+    color: rgb(201, 41, 68);
+}
+
 .foot{
     padding-top: 5px;
     padding-bottom: 50px;
     text-align: center;
     background-color: black;
+}
+.foot h2{
+    color: gray;
+}
+footer{
+    color: white; 
+    padding-bottom: 20px;
+}
+.checked {
+    color: orange;
+}
+#white-star{
+    color: blanchedalmond;
+}
+.extra{
+    margin-bottom: 20px;
+}
+.menu a{
+    float: right;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(248, 129, 149), rgb(202, 11, 11));;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;    
 }
