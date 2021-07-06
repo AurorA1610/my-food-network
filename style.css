@@ -35,7 +35,24 @@ body{
 #center-align{
     text-align: center;
     padding: 0px 300px;
+    margin-bottom: 35px;
 }
 .small-image img{
-    width:80%;
+    width: 100%;
+    border-radius: 15px;
+}
+.recipe{
+    width: 50%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+    border-radius: 30px;
+}
+.foot{
+    padding-top: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: black;
 }
